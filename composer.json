@@ -1,0 +1,30 @@
+{
+    "name": "evaldobarbosa/lhd",
+    "description": "Deploy a Laravel app using app.json data",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Evaldo Barbosa",
+            "email": "evaldobarbosa@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "7.*",
+        "laravel/framework": "7.*",
+        "vlucas/phpdotenv": "*",
+        "mikehaertl/php-shellcommand": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "LHD\\": "src/"
+        }
+    },
+    "extras": {
+        "laravel": {
+            "providers": [
+                "LHD\\Providers\\Install"
+            ]
+        }
+    }
+}
