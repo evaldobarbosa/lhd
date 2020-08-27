@@ -20,7 +20,7 @@
             "LHD\\": "src/"
         }
     },
-    "extras": {
+    "extra": {
         "laravel": {
             "providers": [
                 "LHD\\Providers\\Install"
