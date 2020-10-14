@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": "7.*",
-        "laravel/framework": "7.*",
+        "laravel/framework": "7.*|8.*",
         "vlucas/phpdotenv": "*",
         "mikehaertl/php-shellcommand": "*"
     },
